@@ -13,10 +13,6 @@ namespace testH
 
         public static void SaveData(string name, int score, string id)
         {
-            // ссылки на информацию о игроке
-            string Name = File.ReadAllText("user/name.txt");
-            string Score = File.ReadAllText("user/score.txt");
-            string ID = File.ReadAllText("user/ID.txt");
 
             // Объект данных о игроке
             var user = new
